@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: wsHandler
+Bundle-SymbolicName: com.ibm.cicsdev.wshandler
+Bundle-Version: 1.0.0
+Bundle-Activator: com.ibm.cicsdev.wshandler.Activator
+Import-Package: com.ibm.wsspi.webservices.handler;version="[1.0.0,2.0.0)",
+ org.osgi.framework;version="1.7.0",
+ javax.servlet.http;version="2.6.0",
+ javax.xml.soap,
+ javax.xml.ws,
+ javax.xml.ws.handler,
+ javax.xml.ws.handler.soap 
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.ibm.cicsdev.wshandler
