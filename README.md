@@ -1,4 +1,4 @@
-# cics-java-liberty-wshandler
+# cics-java-liberty-jaxwshandler
 
 This project provides a sample Liberty feature with an OSGi bundle project that implements the Handler interface from the WebSphere
 Liberty global handler SPI.
