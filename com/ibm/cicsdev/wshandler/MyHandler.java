@@ -30,7 +30,6 @@ import com.ibm.wsspi.webservices.handler.Handler;
 public class MyHandler implements Handler {
 
 	private static PrintStream out = System.out;
-	private static SimpleDateFormat dfTime = new SimpleDateFormat("dd/mm/yyyy HH:mm:ss");	
 
 	public void handleFault(GlobalHandlerMessageContext arg0) {
 		//  Add fault handle implementation here
@@ -87,6 +86,7 @@ public class MyHandler implements Handler {
 	private void printMsg (String msg){
 
 		// Get time stamp for log message
+		SimpleDateFormat dfTime = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");	
 		Date timestamp = new Date();		
 
 		// Check thread is a CICS enable task and and add CICS task ID to message
@@ -95,10 +95,12 @@ public class MyHandler implements Handler {
 			int taskid = task.getTaskNumber();
 
 			task.out.println(MessageFormat.format ("{0} Task({1}) {2}", dfTime.format(timestamp), taskid, msg));
+			task.out.flush();
 
 		}
 		else {
 			out.println(MessageFormat.format ("{0} {2}", dfTime.format(timestamp), msg));
+			out.flush();
 		}		 
 	}
 

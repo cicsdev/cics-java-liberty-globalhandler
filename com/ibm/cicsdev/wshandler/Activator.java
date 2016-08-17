@@ -52,8 +52,9 @@ public class Activator implements BundleActivator {
 			
 		// Get time stamp for log message
 		Date timestamp = new Date();	
-		SimpleDateFormat dfTime = new SimpleDateFormat("dd/mm/yyyy HH:mm:ss");	
+		SimpleDateFormat dfTime = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");	
 		System.out.println(MessageFormat.format ("{0} {1}", dfTime.format(timestamp), msg));
+		System.out.flush();
 				 
 	}
 
