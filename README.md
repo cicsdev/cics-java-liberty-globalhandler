@@ -1,15 +1,18 @@
-# cics-java-liberty-jaxwshandler
+# cics-java-liberty-globalhandler
 
 This project provides a sample Liberty feature with an OSGi bundle project that implements the Handler interface from the WebSphere
-Liberty global handler SPI.
-The OSGi bundle activator is used to create a hash table with a set of properties controlling when the implementation class is to be invoked.
-The sample implementation MyHandler will output details about the HTTP request, SOAP operation and WS headers for inbound JAXWS messages.
+Liberty global handler SPI. The sample implementation MyHandler will output details about the HTTP request, SOAP operation and WS headers
+for inbound JAXWS messages.  
+
+The WebSphere Liberty global handler SPI supports both JAXWS and JAXRS web service request for inbound and outbound requests and the sample can 
+be easily modified to intercept different request types by modifying the handler properties set in the bundle activator. The supplied bundle activator 
+sets properties to support JAXWS inbound requests for client or server side calls. 
 
 
 #Pre-reqs
 
-    CICS TS V5.2 or later with WebSphere Liberty 8.5.5 or later
-    Eclipse with WebSphere Developer Tools 
+    CICS TS V5.2 or later with WebSphere Liberty 8.5.5 or later for JAXWS support.
+    Eclipse with WebSphere Developer Tools installed
     Configured Liberty JVM server
 
 #Configuration
