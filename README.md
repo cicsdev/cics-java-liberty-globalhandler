@@ -19,11 +19,12 @@ Source code for the following Java classes is available in the src/Java director
 * lib/wshandlerfeature.esa - Sample deployable Liberty feature
 
 
-## Pre-reqs
+## Pre-reqs 
 
-    CICS TS V5.2 or later with WebSphere Liberty 8.5.5 or later for JAXWS support.
-    Eclipse with WebSphere Developer Tools installed
-    Configured Liberty JVM server
+* CICS TS V5.2 or later with WebSphere Liberty 8.5.5 or later for JAXWS support.
+* Eclipse with WebSphere Developer Tools installed
+* Configured Liberty JVM server
+
 
 ## Configuration
 
