@@ -89,7 +89,7 @@ public class MyHandler implements Handler {
 		SimpleDateFormat dfTime = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");	
 		Date timestamp = new Date();		
 
-		// Check thread is a CICS enable task and and add CICS task ID to message
+		// Check thread is CICS enabled and then add CICS task ID to message
 		if (IsCICS.getApiStatus() == IsCICS.CICS_REGION_AND_API_ALLOWED) {
 			Task task = Task.getTask();
 			int taskid = task.getTaskNumber();
