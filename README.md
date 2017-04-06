@@ -50,9 +50,9 @@ provided
 
 ## Reference
 
-* WebSphere Liberty global handler [SPI] (http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.javadoc.liberty.doc/com.ibm.websphere.appserver.spi.globalhandler_1.0-javadoc/index.html)
-* Liberty featureManager [command] (http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.doc/ae/rwlp_command_featuremanager.html)
-* Adding web services global handlers Knowledge Center [topic] (http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.multiplatform.doc/ae/twlp_web_services_global_handlers.html)
+* WebSphere Liberty global handler [SPI](http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.javadoc.liberty.doc/com.ibm.websphere.appserver.spi.globalhandler_1.0-javadoc/index.html)
+* Liberty featureManager [command](http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.doc/ae/rwlp_command_featuremanager.html)
+* Adding web services global handlers Knowledge Center [topic](http://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.multiplatform.doc/ae/twlp_web_services_global_handlers.html)
 
 
 
